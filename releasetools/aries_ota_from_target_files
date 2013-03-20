@@ -103,7 +103,7 @@ def WriteFullOTAPackage(input_zip, output_zip):
   script.Print("   <%%% Android open Collective Project %%%>  ")
   script.Print("          <%%% By TheCollective %%%>          ")
   script.Print("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-")
-  script.Print("Please Wait While Your Phone Is is Awesomized.")
+  script.Print("  Please Wait While Your Phone Is Awesomized. ")
     
     
   if OPTIONS.wipe_user_data:
