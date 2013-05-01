@@ -26,6 +26,7 @@ TARGET_ARCH := arm
 TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
 TARGET_ARCH_VARIANT := armv7-a-neon
+TARGET_ARCH_VARIANT_CPU := cortex-a8
 ARCH_ARM_HAVE_TLS_REGISTER := true
 
 TARGET_NO_BOOTLOADER := true
@@ -34,10 +35,8 @@ TARGET_NO_RADIOIMAGE := true
 TARGET_PROVIDES_INIT := true
 TARGET_BOARD_PLATFORM := s5pc110
 TARGET_BOOTLOADER_BOARD_NAME := aries
-TARGET_RECOVERY_INITRC := device/samsung/aries-common/recovery.rc
 
 BOARD_MOBILEDATA_INTERFACE_NAME = "pdp0"
-BOARD_UMS_LUNFILE := /sys/class/android_usb/android0/f_mass_storage/lun/file
 
 # Kernel Source
 TARGET_KERNEL_SOURCE := kernel/samsung/aries
@@ -122,7 +121,7 @@ BOARD_ALLOW_EGL_HIBERNATION := true
 BOARD_CUSTOM_VSYNC_IOCTL := true
 
 # Suspend in charger to disable capacitive keys
-BOARD_ALLOW_SUSPEND_IN_CHARGER := true
+BOARD_CHARGER_ENABLE_SUSPEND := true
 
 # Include aries specific stuff
 -include device/samsung/aries-common/Android.mk
