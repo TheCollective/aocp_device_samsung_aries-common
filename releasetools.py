@@ -61,7 +61,6 @@ def FullOTA_Assertions(info):
   info.script.AppendExtra('assert(run_program("/tmp/updater.sh") == 0);')
 
 
-
 def FullOTA_InstallEnd(info):
   # Remove writing boot.img from script (we do it in updater.sh)
   info.script.script = [cmd for cmd in info.script.script if not "write_raw_image" in cmd]
