@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2013 The CyanogenMod Project
+<!--
+     Copyright (C) 2013 The CyanogenMod Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -15,14 +16,13 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string-array name="mdnie_entries">
-        <item>מושבת</item>
-        <item>מצב ממשק</item>
-        <item>מצב וידאו</item>
-        <item>מצב וידאו חם</item>
-        <item>מצב וידאו קר</item>
-        <item>מצב מצלמה</item>
+        <item>Ανενεργή</item>
+        <item>Λειτουργία UI</item>
+        <item>Λειτουργία βίντεο</item>
+        <item>Λειτουργία θερμού βίντεο</item>
+        <item>Λειτουργία ψυχρού βίντεο</item>
+        <item>Λειτουργία φωτογρ. μηχανής</item>
     </string-array>
-
     <string-array name="tvout_system_entries">
         <item>NTSC</item>
         <item>PAL</item>
